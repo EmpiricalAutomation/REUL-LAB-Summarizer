@@ -1,18 +1,16 @@
-# ExplainToMe
+# Based on ExplainToMe
 
 [![travis](https://travis-ci.org/jjangsangy/ExplainToMe.svg?branch=master)](https://travis-ci.org/jjangsangy/ExplainToMe)
 [![licence](https://img.shields.io/pypi/l/coverage.svg)](https://github.com/jjangsangy/ExplainToMe/blob/master/LICENSE)
 [![Quay](https://quay.io/repository/jjangsangy/explaintome/status)](https://quay.io/repository/jjangsangy/explaintome)
 
-## Automatic Web Article Summarizer
-
-![Front](https://github.com/jjangsangy/ExplainToMe/raw/master/static/front.jpg)
+## Automatic Web Article Summarizer for the REUL LAB
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 # What is it?
 
-`Explain To Me` is a automatic text summarizer, that utilizes
+The `REUL LAB Summarizer` is based on `ExplainToMe` is a automatic text summarizer, that utilizes
 [TextRank](http://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf),
 a graph based algorithm to scans through the contents of a website to
 extract a concise machine generated summary. The methodology is similar
