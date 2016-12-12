@@ -19,7 +19,7 @@ users search query.
 
 # Support
 
-Here’s a list of Python platforms that are officially supported.
+Here’s a list of Python platforms that are officially supported. You will have to install one of the Python versions below using https://www.python.org/downloads/.
 
 * Python 2.7
 * Python 3.4
@@ -64,43 +64,3 @@ Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
 Now go to your browser and point it towards `http://127.0.0.1:5000`
 
-# Docker
-
-Running ExplainToMe via the [official Docker image](https://hub.docker.com/r/jjangsangy/explaintome/)
-is an easy way to start a server if you don't want to install python.
-
-We assume here you have already installed Docker for your system.
-
-If you are getting started on OS X, the [Docker toolbox](https://docs.docker.com/engine/installation/mac/)
-is the first thing to checkout.
-
-```bash
-$ docker run -it -p 5000:5000 jjangsangy/ExplainToMe:latest
-```
-
-Once the server is running, navigate to either localhost:5000 (on Linux) or
-hostname:5000 (on Mac OS X), where hostname is the IP addresses
-of your virtual machine, obtained using
-
-```bash
-$ docker-machine ip my-vm-name
-```
-
-Now access your docker machine ip at port `docker-machine-ip:5000`
-
-# Kitematic
-
-You might also want to try [Kitematic](https://kitematic.com/) on OS X which provides a GUI for running Docker images.
-Running ExplainToMe through Kitematic is easy, just search for the
-`jjangsangy/ExplainToMe` image, start it, and you should see it running
-
-![kitematic](https://github.com/jjangsangy/ExplainToMe/raw/master/static/kitematic.jpg)
-
-
-# Things to look forward to:
-
--   Summaries of documents in other languages than English!
-
-# ExplainToMe API
-
-Check out our [Swagger API Documentation](https://swaggerhub.com/api/jjangsangy/ExplainToMe)
